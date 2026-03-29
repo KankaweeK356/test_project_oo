@@ -14,5 +14,5 @@ st.title('Test Stramlit')
 st.write('Hello World')
 
 if st.button('Generate Random Number'):
-  random_number = random.randit(1,100)
+  random_number = random.randint(1,100)
   st.write(f'Random Number : {random_number}')
